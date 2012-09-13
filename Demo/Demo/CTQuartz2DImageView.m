@@ -48,7 +48,6 @@
 	// drawRect method is called. This context is only appropriate for drawing in this invocation
 	// of the drawRect method.
     CGContextRef context = [[NSGraphicsContext currentContext] graphicsPort];
-    
     [_selectionBorder drawCGContext:context];
 }
 
@@ -61,10 +60,7 @@
 - (void)mouseDown:(NSEvent *)theEvent
 {
     NSPoint lastLocation = [self convertPoint:[theEvent locationInWindow] fromView:nil];
-
-    // Need to Refactoring this method for Quartz 2D.
     [_selectionBorder selectAndTrackMouseWithEvent:theEvent atPoint:lastLocation inView:self];
-    
 }
 
 - (IBAction)takeColorFrom:(id)sender

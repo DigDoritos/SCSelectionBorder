@@ -96,13 +96,25 @@
 		8AA9E0FD15F4A43700DFFD64 /* Quartz 2D */ = {
 			isa = PBXGroup;
 			children = (
+				8A1533A415F5DB230094C0F6 /* CTQuartz2DImageView.h */,
+				8A1533A515F5DB230094C0F6 /* CTQuartz2DImageView.m */,
 				8A9AE85615F48BBD0009791E /* CTQuartz2DController.h */,
 				8A9AE85715F48BBD0009791E /* CTQuartz2DController.m */,
 				8A9AE85915F48BD20009791E /* Quartz2D.xib */,
-				8A1533A415F5DB230094C0F6 /* CTQuartz2DImageView.h */,
-				8A1533A515F5DB230094C0F6 /* CTQuartz2DImageView.m */,
 			);
 			name = "Quartz 2D";
+			sourceTree = "<group>";
+		};
+		8ADBFCD81601695F00A55A48 /* Cocoa Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				9F1F856B14980B8B0090ABBC /* MyImageView.h */,
+				9F1F856C14980B8B0090ABBC /* MyImageView.m */,
+				9F1F8543149801200090ABBC /* AppDelegate.h */,
+				9F1F8544149801200090ABBC /* AppDelegate.m */,
+				9F1F8546149801210090ABBC /* MainMenu.xib */,
+			);
+			name = "Cocoa Drawing";
 			sourceTree = "<group>";
 		};
 		9F1F8522149801200090ABBC = {
@@ -148,13 +160,9 @@
 		9F1F8537149801200090ABBC /* Demo */ = {
 			isa = PBXGroup;
 			children = (
-				9F1F856B14980B8B0090ABBC /* MyImageView.h */,
-				9F1F856C14980B8B0090ABBC /* MyImageView.m */,
-				9F1F8543149801200090ABBC /* AppDelegate.h */,
-				9F1F8544149801200090ABBC /* AppDelegate.m */,
-				9F1F8546149801210090ABBC /* MainMenu.xib */,
-				9F1F8538149801200090ABBC /* Supporting Files */,
+				8ADBFCD81601695F00A55A48 /* Cocoa Drawing */,
 				8AA9E0FD15F4A43700DFFD64 /* Quartz 2D */,
+				9F1F8538149801200090ABBC /* Supporting Files */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
